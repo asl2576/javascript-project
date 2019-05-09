@@ -1,0 +1,32 @@
+﻿<!DOCTYPE html>
+
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="utf-8" />
+    <title></title>
+</head>
+<body>
+    <ol>
+        <li id="townOne"></li>
+        <li id="townTwo"></li>
+        <li id="townThree"></li>
+    </ol>
+    <script>
+        function towns() {
+            var firstTown = prompt("Enter a town name");
+            var elem1 = document.getElementById("townOne");
+            elem1.innerHTML = firstTown;
+
+            var secondTown = prompt("Enter a town name");
+            var elem2 = document.getElementById("townTwo");
+            elem2.innerHTML = secondTown;
+
+            var thirdTown = prompt("Enter a town name");
+            var elem3 = document.getElementById("townThree");
+            elem3.innerHTML = thirdTown;
+        }
+     towns();
+    </script>
+   
+</body>
+</html>
